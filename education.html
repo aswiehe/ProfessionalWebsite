@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avery S. Wiehe</title>
+    <link rel="icon" type="image/png" href="imgs/briefcase_favicon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom_styling.css" />
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="custom_script.js"></script>
+
+    <!-- Newest jQuery (mainly for AJAX calls) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="inner-container">
+      <section id='nav_section'></section>
+      <main>
+        <div class='row' style='text-align:center;'>
+          <div class='col-4 display-2'>
+            <p id='csctc_toggle' class='btn btn-primary' style='width:80%;'>Cincinnati State Community & Technical College</p>
+          </div>
+          <div class='col-4 display-2'>
+            <p id='gctc_toggle' class='btn btn-primary' style='width:80%;'>Gateway Community & Technical College</p>
+          </div>
+          <div class='col-4 display-2'>
+            <p id='nku_toggle' class='btn btn-primary' style='width:80%;'>Northern Kentucky University</p>
+          </div>
+        </div>
+        <div id='courses'>
+          <div class='jumbotron' style='text-align:center'>
+              <h1 clas='display-1'>
+                Previous Relevant College Courses
+              </h1>
+              <h2 id='select_school_prompt' class='text-muted'>
+                (select a school above)
+              </h2>
+          </div>
+          <div class='row' style='text-align:left;'>
+            <ul id='csctc_courses' class='course_list' style='display:none;'>
+              <li class='course'>
+                <h3>Food and Beverage Cost Control</h3>
+                <p class='course_description'>
+                  A course on food service cost control systems.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Human Resource Management</h3>
+                <p class='course_description'>
+                  A course on the role of the human resource department and the supervisor's role in various human resource functions. Topics include: recruiting, choosing, and training employees; compensation and benefits; performance evaluation; disciplinary actions; and workplace rights and responsibilities.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Electronic Spreadsheets: Microsoft Excel</h3>
+                <p class='course_description'>
+                  A course on concepts and techniques for using Microsoft Office Excel spreadsheet software. Topics include: constructing worksheets, writing formulas, constructing macros, and using spreadsheets with databases.
+                </p>
+              </li>     
+            </ul>
+            <ul id='gctc_courses' class='course_list' style='display:none;'>
+              <li class='course'>
+                <h3 class='course_title'>Productivity Software</h3>
+                <p class='course_description'>
+                  Utilizes current word processing, spreadsheet, database, and presentation application software to solve common business problems. Covers basic features of each software application.
+                </p>
+              </li>
+              <li class='course'>
+                <h3 class='course_title'>Computer Hardware & Software</h3>
+                <p class='course_description'>
+                  Presents a practical view of computer hardware and client operating systems. Covers computer hardware components; troubleshooting, repair, and maintenance; operating system interfaces and management tools; networking components; computer security; and operational procedures.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Computational Thinking</h3>
+                <p class='course_description'>
+                  Promotes understanding of computer programming and logic by teaching students to think like a computer. Covers skills needed to develop and design language-independent solutions to solve computer-related problems. Covers development and design basics including use of variables, control and data structures, and principles of commandline and object-oriented languages. 
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Intro to Networking Concepts</h3>
+                <p class='course_description'>
+                  Introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. Introduces the principles and structure of IP addressing and the fundamentals of Ethernet concepts, media, and operations. Helps students to be able to build simple LANs, perform basic configurations for routers and switches, and implement IP addressing schemes
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Java I</h3>
+                <p class='course_description'>
+                  Introduces students to fundamental programming concepts using the Java programming language. Includes data types, control structures, simple data structures, errorhandling, object-oriented programming, graphical user interfaces, and modular programming.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Web Page Development</h3>
+                <p class='course_description'>
+                  Introduces web page design through the use of HTML and CSS. Uses text and/or web editors to create web documents with various formats and page layouts, multimedia, tables and forms. Emphasizes W3C web design and accessibility standards.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Database Design Fundamentals</h3>
+                <p class='course_description'>
+                  Provides an overview of database and database management system concepts, internal design models, normalization, network data models, development tools, and applications.
+                </p>
+              </li>     
+            </ul>
+            <ul id='nku_courses' class='course_list' style='display:none;'>
+              <li class='course'>
+                <h3 class='course_title'>Web Programming</h3>
+                <p class='course_description'>
+                  Design of interactive web applications and web sites containing dynamic content; software design for web-based client-server applications and database interaction; client-side and server-side techniques; language-specific design issues.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Object-Oriented Programming I</h3>
+                <p class='course_description'>
+                  Elementary object-oriented programming concepts and practice: types, decisions, loops, methods, arrays, classes; design and problem-solving. An intensive introduction intended for students with programming experience.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Object-Oriented Programming II</h3>
+                <p class='course_description'>
+                  Intermediate object-oriented programming concepts and practice: inheritance, basic graphical user interface elements; introduction to recursion; implementation of linked lists; use of basic container types.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Computer Systems</h3>
+                <p class='course_description'>
+                  ANSI C, pointers, pointer arithmetic; dynamic memory allocation; introduction to instruction sets, registers, addressing modes and assembly language; binary representations and bit manipulations; computer organization concepts.
+                </p>
+              </li>     
+              <li class='course'>
+                <h3 class='course_title'>Data Structures & Algorithmns</h3>
+                <p class='course_description'>
+                  Analysis and efficient implementation of container types such as stacks, queues, hash tables, search trees, and graphs; sorting algorithms.
+                </p>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+{
+    "companies": {
+        "example_company": {
+            "formatted_name": "",
+            "start_month": "",
+            "end_month": "",
+            "start_year": "",
+            "end_year": "",
+            "city": "",
+            "state": "",
+            "position": "",
+            "job_description": {
+                "bulleted": {
+                    "bullet_one": "",
+                    "bullet_two": "",
+                    "bullet_three": "",
+                    "bullet_four": "",
+                    "bullet_five": "",
+                    "bullet_six": "",
+                    "bullet_seven": "",
+                    "bullet_eight": "",
+                    "bullet_nine": "",
+                    "bullet_ten": ""
+                },
+                "paragraphed_text": "",
+                "paragraphed_filepath": ""
+            }
+        },
+        "ups": {
+            "formatted_name": "United Parcel Service",
+            "start_month": "July",
+            "end_month": "Present",
+            "start_year": "2020",
+            "end_year": "Present",
+            "city": "Richwood",
+            "state": "KY",
+            "position": "Operations Management Supervisor",
+            "job_description": {
+                "bulleted": {
+                    "bullet_one": "Supervise area night shift, consisting of roughly 20 employees",
+                    "bullet_two": "Help to create a new night shift with an entirely new crew of employees in one of the eight sections of the building",
+                    "bullet_three": "Maintain clear and precise communication with multiple sections of the building via phone and radio",
+                    "bullet_four": "Work with plant engineers to ensure any faulty equipment is addressed",
+                    "bullet_five": "Keep accurate and organized records on employees and groups of packages to ensure accurate metrics",
+                    "bullet_six": "Train new employees on unfamiliar processes, and succinctly communicate the underlying reasons for those processes, so that they have the knowledge and tools to meet production goals throughout shifts",
+                    "bullet_seven": "",
+                    "bullet_eight": "",
+                    "bullet_nine": "",
+                    "bullet_ten": ""
+                },
+                "paragraphed_text": "I helped to create a new night shift with an entirely new crew of employees in one of the eight sections of the building. Clear, succinct, and precise communication with multiple sections of the building via phone and radio is required at all times. I frequently work with plant engineers to address any equipment that needs to be tended to by identifying and describing the problem, and following up on any changes they needed to make as necessary. Securing this third shift job has allowed me to focus more on school and honing my programming and systems administration skills with home projects, as well as allowing me to be there for my family during this pandemic.",
+                "paragraphed_filepath": "./text_files/employment_history/ups_employment.txt"
+            }
+        },
+        "btg": {
+            "formatted_name": "Blair Technology Group",
+            "start_month": "February",
+            "end_month": "July",
+            "start_year": "2018",
+            "end_year": "2020",
+            "city": "Ft. Wright",
+            "state": "KY",
+            "position": "Programmer and Production Specialist",
+            "job_description": {
+                "bulleted": {
+                    "bullet_one": "As one of the developers for the largest sister company within Blair Technology Group, worked on the in-house application that ensured proper management of inventory and accurate fulfillment of customers' orders, as well as timely access to large amounts of very frequently changing sets of data",
+                    "bullet_two": "As the lead developer within one of the smaller sister companies, ensured maximum uptime of inventory management system and ecommerce application, and saw that changes were made to the systems as requested by management within a timely manner",
+                    "bullet_three": "As the junior developer within one of the smaller sister companies, reviewed code for in-house inventory management application, suggested updates for improved UI/UX, and eventually began implementing those changes myself",
+                    "bullet_four": "Served as sole team lead for this smaller company, until another individual with management experience was hired on to be a lead with me (she focused on directing sales-related employees, the financials, and ensuring compliance across all ecommerce venues while I focused on operations-related employees, on maintaining the in-house inventory management and sales application, general operations, and IT systems side of things)",
+                    "bullet_five": "Assess value of IT equipment and supplies for home and commercial use, refurbish them to the extent that maximizes profitability for resale, and create online advertisements for them (with a personal area of expertise on servers, commercial printers, laptops, PC's)",
+                    "bullet_six": "Provide basic customer service, like troubleshooting and clarifying questions about product specifications",
+                    "bullet_seven": "Sort new inventory by product specifications, and organize within the rest of the current inventory",
+                    "bullet_eight": "Assist in general shipping and receiving, and support inventory management business functions",
+                    "bullet_nine": "",
+                    "bullet_ten": ""
+                },
+                "paragraphed_text": "I spent time across various sister companies within Blair Technology Group coordinating changes to production and internal systems  that were requested by upper management. I was the lead programmer and systems administrator for one of the sister companies before it was indefinitely halted for renovations, and was also the person of contact for ensuring data availability and application uptime for that location. Afterwards, I was placed within a team of programmers at another sister company within Blair Technology Group. At times (especially in the beginning of my employment) I would help directly with production, refurbishing computers, printers, and laptops. ",
+                "paragraphed_filepath": "./text_files/employment_history/btg_employment.txt"
+            }
+        },
+        "citibank": {
+            "formatted_name": "Citibank",
+            "start_month": "August",
+            "end_month": "January",
+            "start_year": "2016",
+            "end_year": "2018",
+            "city": "Florence",
+            "state": "KY",
+            "position": "Customer Service Representative",
+            "job_description": {
+                "bulleted": {
+                    "bullet_one": "Train new team members on technical, industry, and company challenges",
+                    "bullet_two": "Acknowledge customer concerns and feedback, hone in to understand customers’ unexpressed needs, offer proactive solutions, and follow up to confirm satisfaction",
+                    "bullet_three": "Document personal time management, account issues, their resolution, and any necessary follow up.",
+                    "bullet_four": "Aggregate and circulate with team members new information regarding fast changing company standards and practices",
+                    "bullet_five": "",
+                    "bullet_six": "",
+                    "bullet_seven": "",
+                    "bullet_eight": "",
+                    "bullet_nine": "",
+                    "bullet_ten": ""
+                },
+                "paragraphed_text": "I assisted customers with credit card accounts, requiring a broad understanding of pertinent and very frequently changing industry standards and regulations. Significant time was spent on documentation of changes to accounts, interactions with customers, and how time was managed personally in addressing their issues.",
+                "paragraphed_filepath": "./text_files/employment_history/citibank_employment.txt"
+            }
+        }
+    }
+}

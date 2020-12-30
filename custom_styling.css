@@ -1,0 +1,166 @@
+.inner-container {
+    /* The image used */
+    background-image: url("city.jpg");
+
+    min-height: 1080px;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.navbar {
+    /* position: fixed; */
+    top: 0px;
+    /* width: 100%; */
+    background-image: linear-gradient(rgb(211,211,211, 1), rgba(255, 255, 255, 0));
+}
+
+main {
+    background-color: white;
+    
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-item {
+    border-left: 1px solid black;
+}
+
+#portrait {
+    margin-right: 5%;
+    float: left;
+    margin-bottom: 100px;
+    max-height: 510px;
+}
+
+#profile_about {
+    position: inherit;
+    top: 50%;
+    display: inline;
+}
+#profile_paragraphs {
+    border-top: 1px solid lightgrey;
+    margin-top: 15px;
+    padding-top: 50px;
+}
+
+#profile_or {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.employment_section {
+    margin: 0% 0% 5% 0%;
+    border-bottom: 1px solid grey;
+}
+
+.employment_description {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.card-body {
+    height: 220px;
+}
+
+.btn {
+    color: white;
+    border-style: none;
+}
+
+.btn-purple {
+    color: white;
+    background-color: rgb(73, 62, 172);
+}
+
+.btn-purple:hover {
+    color: white;
+    background-color: rgb(40, 33, 100);
+}
+
+.btn-green {
+    color: white;
+    background-color: rgb(53, 143, 65);
+}
+
+.btn-green:hover {
+    color: white;
+    background-color: rgb(29, 87, 37);
+}
+
+.btn-red {
+    color: white;
+    background-color: rgb(172, 62, 62);
+}
+
+.btn-red:hover {
+    color: white;
+    background-color: rgb(87, 30, 30);
+}
+
+.course {
+    margin-bottom: 40px;
+    padding: 0px 40px 0px 40px;
+}
+
+@media only screen and (max-width: 1910px) {
+    .card-body {
+        height: 275px;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    .card-body {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #profile_paragraphs {
+        border-top: 1px solid lightgrey;
+        margin-top: 15px;
+        padding-top: 30px;
+    }
+    #portrait_and_profile {
+        padding: 100px 100px 100px 100px;
+        text-align: center;
+    }
+    #portrait {
+       float: none;
+    }
+    #portrait_and_profile {
+        text-align: center;
+    }
+    #profile_about {
+        text-align: left;
+    }
+    .card-body {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #profile_paragraphs {
+        border-top: 1px solid lightgrey;
+        margin-top: 15px;
+        padding-top: 30px;
+    }
+    #portrait_and_profile {
+        padding: 100px 100px 100px 100px;
+        text-align: center;
+    }
+}
+
